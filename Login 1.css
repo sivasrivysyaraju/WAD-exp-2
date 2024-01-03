@@ -1,0 +1,75 @@
+<html>
+<head>
+<title> loginlink </title>
+<style>
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+</style>
+</head>
+<body>
+<form action="/action_page.php">
+<label><b>NAME<b></label><br><br>
+<input type="text" name="name" value="Enter Name"><br><br>
+
+
+<label><b>Phone Number<b></label><br><br>
+<input type="text" name="phone number" value="Enter your phone numnber"><br><br>
+
+
+<label><b>e-mail address<b></label><br><br>
+<input type="e-mail" name="e-mail" value="Enter your e-mail address"><br><br>
+
+<label><b>Enter Password<b></label><br><br>
+<input type="text" name="password" value="Enter your Password"><br><br>
+
+
+
+<button>Login</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button>sign up</button>
+</form>
+</body>
+<html>

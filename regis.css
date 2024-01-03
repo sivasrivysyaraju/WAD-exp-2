@@ -1,0 +1,85 @@
+<html>
+<head>
+<title> Registrationlink </title>
+<style>
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="radio"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button: hover {
+  background-color: #45a049;
+}
+</style>
+</head>
+<body>
+
+<form action="/action_page.php">
+
+<label><b>NAME<b></label><br><br>
+<input type="text" name="name" value="Enter Name"><br><br>
+<label><b>AGE<b></label><br><br>
+<input type="text" name="age" value="Enter your age"><br><br>
+
+<label><b>GENDER</b></label><br><br>
+<input type="Radio" name="GENDER" value="Male">male<br><br>
+<input type="Radio" name="GENDER" value="Female">female<br><br>
+
+<label><b>Phone Number<b></label><br><br>
+<input type="text" name="phone number" value="Enter your phone numnber"><br><br>
+
+<label><b>Delivery Address<b></label><br><br>
+<input type="text" name="address" value="Enter your address"><br><br>
+
+<label><b>e-mail address<b></label><br><br>
+<input type="e-mail" name="e-mail" value="Enter your e-mail address"><br><br>
+
+<label><b>Create Password<b></label><br><br>
+<input type="text" name="password" value="Enter your Password"><br><br>
+
+<label><b>Re-Enter Password<b></label><br><br>
+<input type="text" name="password" value="Re-Enter your Password"><br><br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button>Register</button>
+
+</form>
+
+</body>
+<html>
